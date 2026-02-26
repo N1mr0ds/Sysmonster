@@ -88,7 +88,7 @@ function Initialize-SysmonVersionDatabase
 	    - Used by Invoke-SilentSysmonPolicy for version-based rule silencing
 	#>
 	try {
-		$dataPath = Join-Path -Path $PSScriptRoot -ChildPath "data\sysmon_versions.json"
+		$dataPath = Join-Path -Path $PSScriptRoot -ChildPath "..\data\sysmon_versions.json"
 		
 		if (-not (Test-Path -Path $dataPath)) {
 			Write-Warning "Sysmon versions database file not found at: $dataPath"
