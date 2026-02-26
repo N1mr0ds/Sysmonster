@@ -1,7 +1,7 @@
 # Sysmonster: the Sysmon Framework
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![License](https://img.shields.io/badge/license-BSD--3--Clause-02B36C)
 
 ## Purpose
 
@@ -35,7 +35,7 @@ Uniquely, it delivers the ability to completely silence Sysmon and all of its lo
 1.  Open an **elevated PowerShell** terminal.
 2.  Navigate to the project directory.
 ```powershell
-   cd "c:\path\to\your\project\Sysmonster"
+   cd "c:\path\to\your\project\Sysmonster\src"
 ```
 3.  If your script execution policy is restricted, you may need to allow the script run as scope as you want by `Set-ExecutionPolicy` function.
 4.  Launch the main Sysmonster script!
@@ -158,7 +158,7 @@ To support 20+ Sysmon versions, I had to bring more than 20 binaries :))
 The perfect location for that is WayBack Machine ;)
 
 Searching for the Sysmon download link brought me a lot of results (and duplicates):
-<img src="pics/wayback-versions.png" alt="WayBack Machine Versions" style="width:70%; height:auto;">
+<img src="pics/wayback-versions.png" alt="WayBack Machine Versions" style="width:90%; height:auto;">
 
 For that, I made two scripts (placed under `silent_mode`) -
 
