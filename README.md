@@ -213,9 +213,9 @@ The tool built in modular architecture, each event function is written in the sa
 Contributions and suggestions are more than welcome!
 
 --- 
-
 ## License
 
+[License](https://github.com/N1mr0ds/Sysmonster/blob/main/LICENSE)
 
 ---
 
